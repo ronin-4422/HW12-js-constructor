@@ -81,7 +81,7 @@ function Hamburger (size) {
       break;
       
       default:
-        alert('Выберите свой гамбурер!')
+        alert('Выберите свой гамбурер!');
     }
     
   };
@@ -89,7 +89,7 @@ function Hamburger (size) {
 
 const hamburger = new Hamburger(bigHamb);
 
-hamburger.addModifier(addCheese);
+hamburger.addModifier(addSalad);
 
 hamburger.addModifier(addPotato);
 
